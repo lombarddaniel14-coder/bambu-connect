@@ -1,0 +1,7 @@
+{
+  "printer_model": "Bambu Lab P1S",
+  "serial": "YOUR_PRINTER_SERIAL",
+  "access_code": "YOUR_ACCESS_CODE",
+  "ip": "",
+  "_comment": "serial + access_code were auto-extracted from Bambu Studio config. Fill in 'ip' with the printer's LAN IP (see README). You can also override any field with env vars BAMBU_IP / BAMBU_SERIAL / BAMBU_ACCESS_CODE."
+}
