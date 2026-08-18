@@ -1,4 +1,4 @@
-# Bambu Connect — local API for Daniel's Bambu Lab P1S
+# Bambu Connect — local API for the user's Bambu Lab P1S
 
 A small Python toolkit that talks to the printer **directly over your LAN** (no
 cloud): live status over MQTT-TLS, and file transfer over FTPS. Everything you
@@ -6,7 +6,7 @@ need is already wired up except the printer's **IP address**.
 
 ## What was auto-detected from Bambu Studio
 
-Pulled from `C:\Users\Daniel\AppData\Roaming\BambuStudio\BambuStudio.conf`:
+Pulled from `<USER_HOME>\AppData\Roaming\BambuStudio\BambuStudio.conf`:
 
 | Field | Value | Source |
 |---|---|---|
@@ -45,7 +45,7 @@ Easiest: on the P1S screen, **Settings → WLAN** shows the IP. Put it in
 Or auto-discover it (printer must be powered on):
 
 ```
-cd "C:\Users\Daniel\Claude\Projects\Bambu Connect"
+cd "<USER_HOME>\Claude\Projects\Bambu Connect"
 py discover.py
 ```
 
